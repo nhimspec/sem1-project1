@@ -1,4 +1,19 @@
 $( function() {
+      $('.products').owlCarousel({
+        margin:10,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+    // Slider-range Price
     $( "#slider-range" ).slider({
       range: true,
       min: 0,

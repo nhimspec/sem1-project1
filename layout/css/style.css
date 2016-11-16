@@ -64,7 +64,7 @@
     color: #495662;
     margin-bottom: 80px; }
   #content .products {
-    padding-bottom: 80px; }
+    padding-bottom: 120px; }
     #content .products .product {
       background-color: #ffffff;
       padding-top: 30px;
@@ -72,7 +72,7 @@
       #content .products .product img {
         width: 145px;
         height: 218px;
-        margin-bottom: 28px; }
+        margin: 0 auto 28px; }
       #content .products .product h3 {
         margin-top: 0;
         margin-bottom: 25px; }
@@ -81,9 +81,23 @@
         margin-bottom: 0;
         font-size: 18px;
         color: #ff5912; }
-  #content .dots-products {
-    height: 60px;
-    background-color: #ffffff; }
+    #content .products .owl-dots {
+      margin: 80px 15px 0;
+      height: 60px;
+      background-color: #ffffff; }
+      #content .products .owl-dots .owl-dot {
+        display: inline-block;
+        height: 60px; }
+        #content .products .owl-dots .owl-dot span {
+          width: 10px;
+          height: 10px;
+          margin: 24px 7px;
+          display: block;
+          background-color: #ff5912;
+          border: 1px solid #ff5912;
+          border-radius: 50%; }
+        #content .products .owl-dots .owl-dot.active span {
+          background-color: #ffffff; }
   #content .seo {
     padding-bottom: 120px; }
     #content .seo .sales {
@@ -172,13 +186,18 @@
       padding-right: 55px;
       height: 123px; }
       #content .news-letter .right form {
-        padding: 35px 0; }
+        padding: 40px 0; }
+        #content .news-letter .right form input[type="text"] {
+          display: inline-block;
+          width: 300px;
+          margin-right: 20px; }
         #content .news-letter .right form input[type="submit"] {
           background-color: #ff5912;
-          padding: 15px 28px;
+          padding: 10px 28px;
           border: 0;
           color: #ffffff;
-          font-size: 14px; }
+          font-size: 14px;
+          border-radius: 6px; }
 
 #footer .container {
   padding-top: 60px;
@@ -338,5 +357,46 @@
       color: #ff5912;
       font-weight: bold;
       margin: 0; }
+
+/*
+* SHOW PRODUCT
+*/
+#show-product {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  border-top: 1px solid rgba(230, 232, 235, 0.502); }
+  #show-product .product-image {
+    text-align: center; }
+    #show-product .product-image img {
+      width: 150px;
+      height: 250px; }
+  #show-product .product-infor h2 {
+    font-size: 52px;
+    color: #ff5912;
+    margin: 0 0 25px; }
+  #show-product .product-infor h3 {
+    font-size: 18px;
+    color: #3c4751;
+    margin: 0 0 30px; }
+  #show-product .product-infor p {
+    font-size: 16px;
+    color: #495662;
+    margin: 0 0 80px; }
+  #show-product .product-infor span.price {
+    font-size: 20px;
+    color: #34404b;
+    height: 55px;
+    line-height: 55px;
+    font-weight: bold; }
+  #show-product .product-infor button.order {
+    float: right;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: #ff5912;
+    border-radius: 25px;
+    padding: 15px 22px; }
+    #show-product .product-infor button.order:hover {
+      opacity: 0.7; }
 
 /*# sourceMappingURL=style.css.map */
