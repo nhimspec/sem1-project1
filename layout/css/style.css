@@ -315,5 +315,28 @@
         color: #ff5912; }
         #content .widget .brands ul li.active div:before {
           background-color: #ff5912; }
+#content .single {
+  padding-bottom: 80px; }
+  #content .single .product-single {
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    max-height: 369px; }
+    #content .single .product-single img {
+      width: 160px;
+      height: 215px;
+      margin-bottom: 30px; }
+    #content .single .product-single h3 {
+      font-size: 18px;
+      color: #34404b;
+      font-weight: bold;
+      margin-bottom: 25px;
+      margin-top: 0; }
+    #content .single .product-single span {
+      font-size: 18px;
+      color: #ff5912;
+      font-weight: bold;
+      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

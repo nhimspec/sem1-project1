@@ -444,4 +444,34 @@
 			}
 		}
 	}
+	.single{
+		padding-bottom: 80px;
+		.product-single{
+			background: #ffffff;
+			padding-top: 30px;
+			padding-bottom: 25px;
+			margin-bottom: 30px;
+			max-height: 369px;
+			img{
+				width: 160px;
+				height: 215px;
+				margin-bottom: 30px;
+			}
+			h3 {
+			  	font-size: 18px;
+			  	//font-family: "HarmoniaSansProCyr";
+			  	color: rgb(52, 64, 75);
+			  	font-weight: bold;
+			  	margin-bottom: 25px;
+			  	margin-top: 0;
+			}
+			span {
+			  	font-size: 18px;
+			  	//font-family: "HarmoniaSansProCyr";
+			  	color: rgb(255, 89, 18);
+			  	font-weight: bold;
+			  	margin: 0;
+			}
+		}
+	}
 }
