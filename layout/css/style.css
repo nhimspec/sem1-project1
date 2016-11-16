@@ -1,0 +1,342 @@
+#header .top-header {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(230, 232, 235, 0.502); }
+  #header .top-header .left {
+    float: left; }
+    #header .top-header .left .email, #header .top-header .left .phone {
+      float: left;
+      margin-right: 10px; }
+  #header .top-header .right {
+    float: right; }
+    #header .top-header .right i {
+      margin-left: 15px; }
+#header .bottom-header {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #header .bottom-header nav ul li {
+    margin-right: 40px; }
+    #header .bottom-header nav ul li a {
+      padding: 0;
+      color: black; }
+      #header .bottom-header nav ul li a:hover {
+        text-decoration: none;
+        color: #ff5912;
+        background: #ffffff; }
+      #header .bottom-header nav ul li a.active {
+        color: #ff5912; }
+  #header .bottom-header .tools {
+    text-align: right; }
+    #header .bottom-header .tools i {
+      margin-left: 30px; }
+
+#sidebar {
+  background-image: url("../images/header_background.png");
+  padding: 230px 0; }
+  #sidebar h1 {
+    font-size: 52px;
+    color: #ff5912;
+    text-transform: uppercase; }
+  #sidebar h3 {
+    font-size: 18px;
+    color: #3c4751; }
+  #sidebar p {
+    font-size: 16px;
+    color: #495662; }
+  #sidebar span {
+    font-size: 18px;
+    color: #34404b; }
+    #sidebar span:last-child {
+      color: #ff5912; }
+
+#content {
+  background: #f4f6f8;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  #content .title h3 {
+    font-size: 36px;
+    color: #ff5912;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  #content .title p {
+    font-size: 16px;
+    color: #495662;
+    margin-bottom: 80px; }
+  #content .products {
+    padding-bottom: 80px; }
+    #content .products .product {
+      background-color: #ffffff;
+      padding-top: 30px;
+      padding-bottom: 22px; }
+      #content .products .product img {
+        width: 145px;
+        height: 218px;
+        margin-bottom: 28px; }
+      #content .products .product h3 {
+        margin-top: 0;
+        margin-bottom: 25px; }
+      #content .products .product span {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 18px;
+        color: #ff5912; }
+  #content .dots-products {
+    height: 60px;
+    background-color: #ffffff; }
+  #content .seo {
+    padding-bottom: 120px; }
+    #content .seo .sales {
+      text-align: left;
+      background: #ffffff;
+      min-height: 100px; }
+      #content .seo .sales img {
+        margin-left: 65px;
+        display: inline-block; }
+      #content .seo .sales .extra-seo {
+        margin-left: 55px;
+        display: inline-block;
+        text-align: left; }
+        #content .seo .sales .extra-seo h3 {
+          font-size: 22px;
+          color: #34404b; }
+        #content .seo .sales .extra-seo p {
+          font-size: 12px;
+          color: #495662; }
+      #content .seo .sales > span {
+        margin-left: 75px;
+        display: inline-block;
+        color: #ff5912; }
+        #content .seo .sales > span i {
+          font-size: 22px; }
+        #content .seo .sales > span span {
+          margin-left: 20px;
+          font-size: 22px;
+          color: #ff5912; }
+    #content .seo .ads {
+      min-height: 100px;
+      background: #ffffff; }
+  #content .best-sales {
+    padding-bottom: 120px; }
+    #content .best-sales .title h3 {
+      font-size: 36px;
+      color: #ff5912; }
+    #content .best-sales .title p {
+      font-size: 16px;
+      color: #495662; }
+    #content .best-sales .products-sales .product-sale {
+      padding-top: 30px;
+      padding-left: 25px;
+      background: #ffffff;
+      padding-bottom: 30px; }
+      #content .best-sales .products-sales .product-sale img {
+        float: left;
+        margin-right: 50px;
+        width: 90px;
+        height: 90px; }
+      #content .best-sales .products-sales .product-sale .extra-product-sales {
+        float: left; }
+        #content .best-sales .products-sales .product-sale .extra-product-sales h3 {
+          font-size: 18px;
+          font-family: "HarmoniaSansProCyr";
+          color: #34404b;
+          font-weight: bold; }
+        #content .best-sales .products-sales .product-sale .extra-product-sales span {
+          font-size: 16px;
+          font-family: "HarmoniaSansProCyr";
+          color: #ff5912; }
+  #content .news-letter {
+    background-color: #ffffff; }
+    #content .news-letter .left {
+      padding-left: 70px; }
+      #content .news-letter .left h3 {
+        float: left;
+        font-size: 18px;
+        font-family: "HarmoniaSansProCyr";
+        color: #ff5912;
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 123px;
+        line-height: 123px;
+        margin: 0; }
+      #content .news-letter .left p {
+        float: left;
+        font-size: 14px;
+        color: #34404b;
+        font-style: italic;
+        height: 123px;
+        line-height: 123px;
+        margin: 0 0 0 20px; }
+    #content .news-letter .right {
+      text-align: right;
+      padding-right: 55px;
+      height: 123px; }
+      #content .news-letter .right form {
+        padding: 35px 0; }
+        #content .news-letter .right form input[type="submit"] {
+          background-color: #ff5912;
+          padding: 15px 28px;
+          border: 0;
+          color: #ffffff;
+          font-size: 14px; }
+
+#footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  #footer .container .footer-logo {
+    padding-top: 25px; }
+    #footer .container .footer-logo p {
+      margin: 20px 0 0 0;
+      font-size: 14px;
+      color: #28313b; }
+  #footer .container .contact ul {
+    padding: 0;
+    margin: 0; }
+    #footer .container .contact ul li a {
+      font-size: 14px;
+      color: black;
+      padding-left: 0;
+      padding-right: 0; }
+      #footer .container .contact ul li a:before {
+        content: "";
+        line-height: 5px;
+        width: 5px;
+        height: 5px;
+        background-color: black;
+        float: left;
+        margin: 8px 8px 0;
+        border-radius: 50%; }
+    #footer .container .contact ul li:hover a {
+      color: #ff5912;
+      text-decoration: none;
+      background-color: #ffffff; }
+      #footer .container .contact ul li:hover a:before {
+        background-color: #ff5912; }
+
+/**************************PRODUCT**********************************/
+#content .widget {
+  text-align: left; }
+  #content .widget .categories {
+    background-color: #ffffff;
+    padding-left: 40px;
+    margin-bottom: 30px; }
+    #content .widget .categories h3 {
+      font-size: 18px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      color: #ff5912;
+      font-weight: bold; }
+    #content .widget .categories ul li {
+      padding-bottom: 35px; }
+  #content .widget .price {
+    background-color: #ffffff;
+    padding-left: 40px;
+    margin-bottom: 30px; }
+    #content .widget .price h3 {
+      font-size: 18px;
+      margin-top: 40px;
+      margin-bottom: 65px;
+      color: #ff5912;
+      font-weight: bold; }
+    #content .widget .price label {
+      border: 0;
+      color: #34404b;
+      font-weight: bold; }
+      #content .widget .price label#amount1 {
+        position: absolute;
+        bottom: 20px; }
+      #content .widget .price label#amount2 {
+        position: absolute;
+        bottom: 20px; }
+    #content .widget .price #slider-range {
+      margin-bottom: 40px;
+      height: 3px;
+      border: 0;
+      background-color: #edf0f2; }
+      #content .widget .price #slider-range div.ui-slider-range {
+        background-color: #34404b; }
+      #content .widget .price #slider-range span {
+        background: #34404b;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        cursor: pointer; }
+  #content .widget .sizes {
+    background-color: #ffffff;
+    padding-left: 40px;
+    margin-bottom: 30px; }
+    #content .widget .sizes h3 {
+      font-size: 18px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      color: #ff5912;
+      font-weight: bold; }
+    #content .widget .sizes ul li {
+      padding-bottom: 35px; }
+      #content .widget .sizes ul li div {
+        font-size: 16px; }
+        #content .widget .sizes ul li div:before {
+          content: "";
+          line-height: 5px;
+          width: 5px;
+          height: 5px;
+          background-color: black;
+          float: left;
+          margin: 8px 8px 0;
+          border-radius: 50%; }
+      #content .widget .sizes ul li.active div {
+        color: #ff5912; }
+        #content .widget .sizes ul li.active div:before {
+          background-color: #ff5912; }
+  #content .widget .brands {
+    background-color: #ffffff;
+    padding-left: 40px;
+    margin-bottom: 30px; }
+    #content .widget .brands h3 {
+      font-size: 18px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      color: #ff5912;
+      font-weight: bold; }
+    #content .widget .brands ul li {
+      padding-bottom: 35px; }
+      #content .widget .brands ul li div {
+        font-size: 16px; }
+        #content .widget .brands ul li div:before {
+          content: "";
+          line-height: 5px;
+          width: 5px;
+          height: 5px;
+          background-color: black;
+          float: left;
+          margin: 8px 8px 0;
+          border-radius: 50%; }
+      #content .widget .brands ul li.active div {
+        color: #ff5912; }
+        #content .widget .brands ul li.active div:before {
+          background-color: #ff5912; }
+#content .single {
+  padding-bottom: 80px; }
+  #content .single .product-single {
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    max-height: 369px; }
+    #content .single .product-single img {
+      width: 160px;
+      height: 215px;
+      margin-bottom: 30px; }
+    #content .single .product-single h3 {
+      font-size: 18px;
+      color: #34404b;
+      font-weight: bold;
+      margin-bottom: 25px;
+      margin-top: 0; }
+    #content .single .product-single span {
+      font-size: 18px;
+      color: #ff5912;
+      font-weight: bold;
+      margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
