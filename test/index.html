@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.parseXML demo</title>
+  <script src="jquery.min.js"></script>
+</head>
+<body>
+ 
+	<table id="someElement">
+		<thead>
+			<th>Author</th>
+			<th>Title</th>
+			<th>Genre</th>
+			<th>Price</th>
+			<th>Description</th>
+		</thead>
+	</table>
+ 
+<script>
+$(document).ready(function()
+      {
+        $.get('book.xml', function(d){
+ 
+        $(d).find('book#bk101').each(function(){
+ 
+            var $book = $(this); 
+            var author = $book.find("author").text();
+            var title = $book.find("title").text();
+            var genre = $book.find("genre").text();
+            var price = $book.find("price").text();
+            var description = $book.find('description').text();
+ 
+            var html = '<tr>';
+            html += '<td>' + author + '</td>';
+            html += '<td>' + title + '</td>';
+            html += '<td>' + genre + '</td>';
+         	html += '<td>' + price + '</td>';
+            html += '<td> ' + description + '</td>' ;
+            html += '</tr>';
+ 
+            $('#someElement').append($(html));
+           
+        });
+    });
+});
+ 
+</script>
+ 
+</body>
+</html>

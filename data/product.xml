@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<products>
+   <product id="1">
+      <name>Gambardella, Matthew</name>
+      <category>Man</category>
+      <slug-cat>man</slug-cat>
+      <price>44.95</price>
+      <brands>Reebok</brands>
+      <size>Small</size>
+      <image>product1</image>
+      <description>An in-depth look at creating applications 
+      with XML.</description>
+   </product>
+   <product id="2">
+      <name>Ralls, Kim</name>
+      <category>Women</category>
+      <slug-cat>women</slug-cat>
+      <price>5.95</price>
+      <brands>Addidas</brands>
+      <size>Small</size>
+      <image>product2</image>
+      <description>A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.</description>
+   </product>
+   <product id="3">
+      <name>Corets, Eva</name>
+      <category>Childrens</category>
+      <slug-cat>childrens</slug-cat>
+      <price>5.95</price>
+      <brands>Nike</brands>
+      <size>Small</size>
+      <image>product3</image>
+      <description>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.</description>
+   </product>
+   <product id="4">
+      <name>Corets, Eva</name>
+      <category>Hot Details</category>
+      <slug-cat>hot-details</slug-cat>
+      <price>5.95</price>
+      <brands>Zara</brands>
+      <size>Small</size>
+      <image>product4</image>
+      <description>In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.</description>
+   </product>
+ </products>
