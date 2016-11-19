@@ -69,6 +69,8 @@
 }
 #sidebar{
 	background-image: url('../images/header_background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding:230px 0;
 	h1{
 	  	font-size: 52px;
@@ -388,6 +390,12 @@
 				padding-bottom: 35px;
 				font-size: 16px;
 				font-family: "SegoeuiBold";
+				div{
+					cursor: pointer;
+					&.active{
+					color: #ff5912;
+					}
+				}
 			}
 		}
 		.price{
@@ -446,6 +454,7 @@
 			ul li{
 				padding-bottom: 35px;
 				div{
+					cursor: pointer;
 					font-size: 16px;
 					font-family: "SegoeuiBold";
 					&:before{
@@ -458,12 +467,10 @@
 					    margin: 8px 8px 0;
 					    border-radius: 50%;
 					}
-				}
-				&.active{
-					div{
+					&.active{
 						color: rgb(255, 89, 18);
 						&:before{
-						    background-color: rgb(255, 89, 18);
+							background-color: rgb(255, 89, 18);
 						}
 					}
 				}
@@ -484,6 +491,7 @@
 			ul li{
 				padding-bottom: 35px;
 				div{
+					cursor: pointer;
 					font-size: 16px;
 					font-family: "SegoeuiBold";
 					&:before{
@@ -496,9 +504,7 @@
 					    margin: 8px 8px 0;
 					    border-radius: 50%;
 					}
-				}
-				&.active{
-					div{
+					&.active{
 						color: rgb(255, 89, 18);
 						&:before{
 						    background-color: rgb(255, 89, 18);
