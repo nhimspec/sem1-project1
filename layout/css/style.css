@@ -1,3 +1,15 @@
+@font-face {
+  font-family: SegoeuiRegular;
+  src: url(../font/SEGOEUI.TTF); }
+@font-face {
+  font-family: SegoeuiBold;
+  src: url(../font/SEGOEUIB.TTF); }
+@font-face {
+  font-family: SegoeuiLight;
+  src: url(../font/segoeuii.ttf); }
+@font-face {
+  font-family: SegoeuiBoldItalic;
+  src: url(../font/SEGOEUIZ.TTF); }
 #header .top-header {
   padding-top: 20px;
   padding-bottom: 25px;
@@ -6,7 +18,10 @@
     float: left; }
     #header .top-header .left .email, #header .top-header .left .phone {
       float: left;
-      margin-right: 10px; }
+      margin-right: 20px;
+      font-family: "SegoeuiRegular"; }
+      #header .top-header .left .email img, #header .top-header .left .phone img {
+        margin-right: 5px; }
   #header .top-header .right {
     float: right; }
     #header .top-header .right i {
@@ -18,7 +33,8 @@
     margin-right: 40px; }
     #header .bottom-header nav ul li a {
       padding: 0;
-      color: black; }
+      color: black;
+      font-family: "SegoeuiBold"; }
       #header .bottom-header nav ul li a:hover {
         text-decoration: none;
         color: #ff5912;
@@ -35,17 +51,23 @@
   padding: 230px 0; }
   #sidebar h1 {
     font-size: 52px;
+    font-family: "SegoeuiBold";
     color: #ff5912;
     text-transform: uppercase; }
-  #sidebar h3 {
+  #sidebar h2 {
     font-size: 18px;
+    font-family: "SegoeuiBold";
     color: #3c4751; }
   #sidebar p {
     font-size: 16px;
-    color: #495662; }
+    font-family: "SegoeuiRegular";
+    color: #495662;
+    margin-bottom: 60px; }
   #sidebar span {
     font-size: 18px;
-    color: #34404b; }
+    font-family: "SegoeuiBold";
+    color: #34404b;
+    margin-right: 25px; }
     #sidebar span:last-child {
       color: #ff5912; }
 
@@ -56,31 +78,41 @@
   padding-bottom: 120px; }
   #content .title h3 {
     font-size: 36px;
-    color: #ff5912;
+    font-family: "SegoeuiBold";
     text-transform: uppercase;
     margin-bottom: 25px; }
+    #content .title h3 span {
+      color: #ff5912; }
   #content .title p {
     font-size: 16px;
+    font-family: "SegoeuiRegular";
     color: #495662;
     margin-bottom: 80px; }
   #content .products {
     padding-bottom: 120px; }
-    #content .products .product {
-      background-color: #ffffff;
-      padding-top: 30px;
-      padding-bottom: 22px; }
-      #content .products .product img {
-        width: 145px;
-        height: 218px;
-        margin: 0 auto 28px; }
-      #content .products .product h3 {
-        margin-top: 0;
-        margin-bottom: 25px; }
-      #content .products .product span {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 18px;
-        color: #ff5912; }
+    #content .products a {
+      text-decoration: none;
+      display: block;
+      color: black; }
+      #content .products a .product {
+        background-color: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 22px; }
+        #content .products a .product img {
+          width: 145px;
+          height: 218px;
+          margin: 0 auto 28px; }
+        #content .products a .product h3 {
+          margin-top: 0;
+          margin-bottom: 25px;
+          font-family: "SegoeuiBold";
+          font-size: 18px; }
+        #content .products a .product span {
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 18px;
+          font-family: "SegoeuiBold";
+          color: #ff5912; }
     #content .products .owl-dots {
       margin: 80px 15px 0;
       height: 60px;
@@ -113,9 +145,11 @@
         text-align: left; }
         #content .seo .sales .extra-seo h3 {
           font-size: 22px;
+          font-family: "SegoeuiBold";
           color: #34404b; }
         #content .seo .sales .extra-seo p {
           font-size: 12px;
+          font-family: "SegoeuiRegular";
           color: #495662; }
       #content .seo .sales > span {
         margin-left: 75px;
@@ -126,6 +160,7 @@
         #content .seo .sales > span span {
           margin-left: 20px;
           font-size: 22px;
+          font-family: "SegoeuiBold";
           color: #ff5912; }
     #content .seo .ads {
       min-height: 100px;
@@ -134,31 +169,37 @@
     padding-bottom: 120px; }
     #content .best-sales .title h3 {
       font-size: 36px;
-      color: #ff5912; }
+      font-family: "SegoeuiBold"; }
+      #content .best-sales .title h3 span {
+        color: #ff5912; }
     #content .best-sales .title p {
       font-size: 16px;
+      font-family: "SegoeuiRegular";
       color: #495662; }
-    #content .best-sales .products-sales .product-sale {
-      padding-top: 30px;
-      padding-left: 25px;
-      background: #ffffff;
-      padding-bottom: 30px; }
-      #content .best-sales .products-sales .product-sale img {
-        float: left;
-        margin-right: 50px;
-        width: 90px;
-        height: 90px; }
-      #content .best-sales .products-sales .product-sale .extra-product-sales {
-        float: left; }
-        #content .best-sales .products-sales .product-sale .extra-product-sales h3 {
-          font-size: 18px;
-          font-family: "HarmoniaSansProCyr";
-          color: #34404b;
-          font-weight: bold; }
-        #content .best-sales .products-sales .product-sale .extra-product-sales span {
-          font-size: 16px;
-          font-family: "HarmoniaSansProCyr";
-          color: #ff5912; }
+    #content .best-sales .products-sales a {
+      text-decoration: none;
+      display: block; }
+      #content .best-sales .products-sales a .product-sale {
+        padding-top: 30px;
+        padding-left: 25px;
+        background: #ffffff;
+        padding-bottom: 30px; }
+        #content .best-sales .products-sales a .product-sale img {
+          float: left;
+          margin-right: 50px;
+          width: 90px;
+          height: 90px; }
+        #content .best-sales .products-sales a .product-sale .extra-product-sales {
+          float: left; }
+          #content .best-sales .products-sales a .product-sale .extra-product-sales h3 {
+            font-size: 18px;
+            font-family: "SegoeuiBold";
+            color: #34404b;
+            font-weight: bold; }
+          #content .best-sales .products-sales a .product-sale .extra-product-sales span {
+            font-size: 16px;
+            font-family: "SegoeuiBold";
+            color: #ff5912; }
   #content .news-letter {
     background-color: #ffffff; }
     #content .news-letter .left {
@@ -166,7 +207,7 @@
       #content .news-letter .left h3 {
         float: left;
         font-size: 18px;
-        font-family: "HarmoniaSansProCyr";
+        font-family: "SegoeuiBold";
         color: #ff5912;
         font-weight: bold;
         text-transform: uppercase;
@@ -176,8 +217,8 @@
       #content .news-letter .left p {
         float: left;
         font-size: 14px;
+        font-family: "SegoeuiItalic";
         color: #34404b;
-        font-style: italic;
         height: 123px;
         line-height: 123px;
         margin: 0 0 0 20px; }
@@ -197,7 +238,8 @@
           border: 0;
           color: #ffffff;
           font-size: 14px;
-          border-radius: 6px; }
+          border-radius: 6px;
+          font-family: "SegoeuiBold"; }
 
 #footer .container {
   padding-top: 60px;
@@ -207,6 +249,7 @@
     #footer .container .footer-logo p {
       margin: 20px 0 0 0;
       font-size: 14px;
+      font-family: "SegoeuiRegular";
       color: #28313b; }
   #footer .container .contact ul {
     padding: 0;
@@ -215,7 +258,8 @@
       font-size: 14px;
       color: black;
       padding-left: 0;
-      padding-right: 0; }
+      padding-right: 0;
+      font-family: "SegoeuiRegular"; }
       #footer .container .contact ul li a:before {
         content: "";
         line-height: 5px;
@@ -243,10 +287,13 @@
       font-size: 18px;
       margin-top: 40px;
       margin-bottom: 25px;
+      font-family: "SegoeuiBold";
       color: #ff5912;
       font-weight: bold; }
     #content .widget .categories ul li {
-      padding-bottom: 35px; }
+      padding-bottom: 35px;
+      font-size: 16px;
+      font-family: "SegoeuiBold"; }
   #content .widget .price {
     background-color: #ffffff;
     padding-left: 40px;
@@ -255,12 +302,12 @@
       font-size: 18px;
       margin-top: 40px;
       margin-bottom: 65px;
-      color: #ff5912;
-      font-weight: bold; }
+      font-family: "SegoeuiBold";
+      color: #ff5912; }
     #content .widget .price label {
       border: 0;
       color: #34404b;
-      font-weight: bold; }
+      font-family: "SegoeuiRegular"; }
       #content .widget .price label#amount1 {
         position: absolute;
         bottom: 20px; }
@@ -288,12 +335,14 @@
       font-size: 18px;
       margin-top: 40px;
       margin-bottom: 25px;
+      font-family: "SegoeuiBold";
       color: #ff5912;
       font-weight: bold; }
     #content .widget .sizes ul li {
       padding-bottom: 35px; }
       #content .widget .sizes ul li div {
-        font-size: 16px; }
+        font-size: 16px;
+        font-family: "SegoeuiBold"; }
         #content .widget .sizes ul li div:before {
           content: "";
           line-height: 5px;
@@ -315,12 +364,14 @@
       font-size: 18px;
       margin-top: 40px;
       margin-bottom: 25px;
+      font-family: "SegoeuiBold";
       color: #ff5912;
       font-weight: bold; }
     #content .widget .brands ul li {
       padding-bottom: 35px; }
       #content .widget .brands ul li div {
-        font-size: 16px; }
+        font-size: 16px;
+        font-family: "SegoeuiBold"; }
         #content .widget .brands ul li div:before {
           content: "";
           line-height: 5px;
@@ -336,27 +387,32 @@
           background-color: #ff5912; }
 #content .single {
   padding-bottom: 80px; }
-  #content .single .product-single {
-    background: #ffffff;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    margin-bottom: 30px;
-    max-height: 369px; }
-    #content .single .product-single img {
-      width: 160px;
-      height: 215px;
-      margin-bottom: 30px; }
-    #content .single .product-single h3 {
-      font-size: 18px;
-      color: #34404b;
-      font-weight: bold;
-      margin-bottom: 25px;
-      margin-top: 0; }
-    #content .single .product-single span {
-      font-size: 18px;
-      color: #ff5912;
-      font-weight: bold;
-      margin: 0; }
+  #content .single a {
+    text-decoration: none;
+    display: block; }
+    #content .single a .product-single {
+      background: #ffffff;
+      padding-top: 30px;
+      padding-bottom: 25px;
+      margin-bottom: 30px;
+      max-height: 369px; }
+      #content .single a .product-single img {
+        width: 160px;
+        height: 215px;
+        margin-bottom: 30px; }
+      #content .single a .product-single h3 {
+        font-size: 18px;
+        font-family: "SegoeuiBold";
+        color: #34404b;
+        font-weight: bold;
+        margin-bottom: 25px;
+        margin-top: 0; }
+      #content .single a .product-single span {
+        font-size: 18px;
+        font-family: "SegoeuiBold";
+        color: #ff5912;
+        font-weight: bold;
+        margin: 0; }
 
 /*
 * SHOW PRODUCT
@@ -372,25 +428,30 @@
       height: 250px; }
   #show-product .product-infor h2 {
     font-size: 52px;
+    font-family: "SegoeuiBold";
     color: #ff5912;
-    margin: 0 0 25px; }
+    margin: 0 0 25px;
+    text-transform: uppercase; }
   #show-product .product-infor h3 {
     font-size: 18px;
+    font-family: "SegoeuiBold";
     color: #3c4751;
     margin: 0 0 30px; }
   #show-product .product-infor p {
     font-size: 16px;
+    font-family: "SegoeuiRegular";
     color: #495662;
     margin: 0 0 80px; }
   #show-product .product-infor span.price {
     font-size: 20px;
+    font-family: "SegoeuiRegular";
     color: #34404b;
     height: 55px;
-    line-height: 55px;
-    font-weight: bold; }
+    line-height: 55px; }
   #show-product .product-infor button.order {
     float: right;
     font-size: 18px;
+    font-family: "SegoeuiRegular";
     color: white;
     border: none;
     background-color: #ff5912;
