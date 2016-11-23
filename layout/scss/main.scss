@@ -14,7 +14,33 @@
     font-family: SegoeuiBoldItalic;
     src: url(../font/SEGOEUIZ.TTF);
 }
-
+.modal{
+	h4{
+		font-family: "SegoeuiBold";
+	}
+	p{
+		font-size: 18px;
+	    font-family: "SegoeuiBold";
+	    color: #ff5912;
+	    font-weight: bold;
+	}
+	a{
+		text-decoration: none;
+		font-size: 25px;
+	    font-family: "SegoeuiBold";
+	    color: #ff5912;
+	    font-weight: bold; 
+	    &:hover{
+	    	text-decoration: none;
+	    	color: red;
+	    }
+	}
+	h5{
+		text-decoration: none;
+		font-size: 18px;
+	    font-family: "SegoeuiRegular";
+	}
+}
 #header{
 	.top-header{
 		padding-top: 20px;
@@ -127,6 +153,7 @@
 			text-decoration: none;
 			display: block;
 			color: black;
+			cursor: pointer;
 			.product{
 				background-color: #ffffff;
 				padding-top: 30px;
@@ -148,6 +175,9 @@
 					font-size: 18px;
 				  	font-family: "SegoeuiBold";
 				 	color: rgb(255, 89, 18);
+				 	&.sales{
+				  		text-decoration: line-through;
+				  	}
 				}
 			}
 		}
@@ -184,6 +214,7 @@
 			img{
 				margin-left: 65px;
 				display: inline-block;
+				margin-top: -20px;
 			}
 			.extra-seo{
 				margin-left: 55px;
@@ -218,6 +249,10 @@
 		.ads{
 			min-height: 100px;
 			background: #ffffff;
+			img{
+				width: 100%;
+				height: 100%;
+			}
 		}
 	}
 	.best-sales{
@@ -238,6 +273,7 @@
 		}
 		.products-sales{
 			a{
+				cursor: pointer;
 				text-decoration: none;
 				display: block;
 				.product-sale{
@@ -263,6 +299,9 @@
 						  	font-size: 16px;
 						  	font-family: "SegoeuiBold";
 						  	color: rgb(255, 89, 18);
+						  	&.sales{
+						  		text-decoration: line-through;
+						  	}
 						}
 					}
 				}
@@ -517,6 +556,7 @@
 	.single{
 		padding-bottom: 80px;
 		a{
+			cursor: pointer;
 			text-decoration: none;
 			display: block;
 			.product-single{
@@ -544,66 +584,46 @@
 				  	color: rgb(255, 89, 18);
 				  	font-weight: bold;
 				  	margin: 0;
+				  	&.sales{
+				  		text-decoration: line-through;
+				  	}
 				}
 			}
 		}
 	}
+
 }
 
-/*
-* SHOW PRODUCT
-*/
+/******************RESPONSIVE********************/
 
-#show-product{
-	padding-top: 100px;
-	padding-bottom: 120px;
-	border-top: 1px solid rgba(230, 232, 235,0.502);
-	.product-image{
+@media screen and (max-width: 992px) {
+	#content .seo .ads { display: none;}
+	#content .best-sales .products-sales a .product-sale {
 		text-align: center;
 		img{
-			width: 150px;
-			height: 250px;
+			display: inline-block;
+			float: none;
+		}
+		width: 240px;
+	}
+	#content .news-letter {
+		.left,.right {
+			text-align: center;
+		}
+		.right{
+			form{
+				padding:20px;
+			}
 		}
 	}
-	.product-infor{
-		h2{
-			font-size: 52px;
-			font-family: "SegoeuiBold";
-			color: rgb(255, 89, 18);
-			margin: 0 0 25px;
-			text-transform: uppercase;
-		}
-		h3 {
-		  	font-size: 18px;
-		  	font-family: "SegoeuiBold";
-		  	color: rgb(60, 71, 81);
-		  	margin: 0 0 30px;
-		}
-		p {
-		  	font-size: 16px;
-		  	font-family: "SegoeuiRegular";
-		  	color: rgb(73, 86, 98);
-		  	margin: 0 0 80px;
-		}
-		span.price {
-		 	font-size: 20px;
-		  	font-family: "SegoeuiRegular";
-		  	color: rgb(52, 64, 75);
-		  	height: 55px;
-		  	line-height: 55px;
-		}
-		button.order{
-			float: right;
-		  	font-size: 18px;
-		  	font-family: "SegoeuiRegular";
-		  	color: rgb(255, 255, 255);
-		  	border: none;
-		  	background-color: #ff5912;
-		  	border-radius: 25px;
-		  	padding: 15px 22px;
-		  	&:hover{
-		  		opacity: 0.7;
-		  	}
+}
+@media screen and (max-width: 772px) {
+	#header {
+		.top-header { display: none; }
+		.bottom-header{
+			.nav,.tools{
+				display: none;
+			}
 		}
 	}
 }

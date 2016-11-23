@@ -10,6 +10,27 @@
 @font-face {
   font-family: SegoeuiBoldItalic;
   src: url(../font/SEGOEUIZ.TTF); }
+.modal h4 {
+  font-family: "SegoeuiBold"; }
+.modal p {
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  font-weight: bold; }
+.modal a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  font-weight: bold; }
+  .modal a:hover {
+    text-decoration: none;
+    color: red; }
+.modal h5 {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "SegoeuiRegular"; }
+
 #header .top-header {
   padding-top: 20px;
   padding-bottom: 25px;
@@ -95,7 +116,8 @@
     #content .products a {
       text-decoration: none;
       display: block;
-      color: black; }
+      color: black;
+      cursor: pointer; }
       #content .products a .product {
         background-color: #ffffff;
         padding-top: 30px;
@@ -115,6 +137,8 @@
           font-size: 18px;
           font-family: "SegoeuiBold";
           color: #ff5912; }
+          #content .products a .product span.sales {
+            text-decoration: line-through; }
     #content .products .owl-dots {
       margin: 80px 15px 0;
       height: 60px;
@@ -140,7 +164,8 @@
       min-height: 100px; }
       #content .seo .sales img {
         margin-left: 65px;
-        display: inline-block; }
+        display: inline-block;
+        margin-top: -20px; }
       #content .seo .sales .extra-seo {
         margin-left: 55px;
         display: inline-block;
@@ -167,6 +192,9 @@
     #content .seo .ads {
       min-height: 100px;
       background: #ffffff; }
+      #content .seo .ads img {
+        width: 100%;
+        height: 100%; }
   #content .best-sales {
     padding-bottom: 120px; }
     #content .best-sales .title h3 {
@@ -179,6 +207,7 @@
       font-family: "SegoeuiRegular";
       color: #495662; }
     #content .best-sales .products-sales a {
+      cursor: pointer;
       text-decoration: none;
       display: block; }
       #content .best-sales .products-sales a .product-sale {
@@ -202,6 +231,8 @@
             font-size: 16px;
             font-family: "SegoeuiBold";
             color: #ff5912; }
+            #content .best-sales .products-sales a .product-sale .extra-product-sales span.sales {
+              text-decoration: line-through; }
   #content .news-letter {
     background-color: #ffffff; }
     #content .news-letter .left {
@@ -396,6 +427,7 @@
 #content .single {
   padding-bottom: 80px; }
   #content .single a {
+    cursor: pointer;
     text-decoration: none;
     display: block; }
     #content .single a .product-single {
@@ -421,51 +453,29 @@
         color: #ff5912;
         font-weight: bold;
         margin: 0; }
+        #content .single a .product-single span.sales {
+          text-decoration: line-through; }
 
-/*
-* SHOW PRODUCT
-*/
-#show-product {
-  padding-top: 100px;
-  padding-bottom: 120px;
-  border-top: 1px solid rgba(230, 232, 235, 0.502); }
-  #show-product .product-image {
+/******************RESPONSIVE********************/
+@media screen and (max-width: 992px) {
+  #content .seo .ads {
+    display: none; }
+
+  #content .best-sales .products-sales a .product-sale {
+    text-align: center;
+    width: 240px; }
+    #content .best-sales .products-sales a .product-sale img {
+      display: inline-block;
+      float: none; }
+
+  #content .news-letter .left, #content .news-letter .right {
     text-align: center; }
-    #show-product .product-image img {
-      width: 150px;
-      height: 250px; }
-  #show-product .product-infor h2 {
-    font-size: 52px;
-    font-family: "SegoeuiBold";
-    color: #ff5912;
-    margin: 0 0 25px;
-    text-transform: uppercase; }
-  #show-product .product-infor h3 {
-    font-size: 18px;
-    font-family: "SegoeuiBold";
-    color: #3c4751;
-    margin: 0 0 30px; }
-  #show-product .product-infor p {
-    font-size: 16px;
-    font-family: "SegoeuiRegular";
-    color: #495662;
-    margin: 0 0 80px; }
-  #show-product .product-infor span.price {
-    font-size: 20px;
-    font-family: "SegoeuiRegular";
-    color: #34404b;
-    height: 55px;
-    line-height: 55px; }
-  #show-product .product-infor button.order {
-    float: right;
-    font-size: 18px;
-    font-family: "SegoeuiRegular";
-    color: white;
-    border: none;
-    background-color: #ff5912;
-    border-radius: 25px;
-    padding: 15px 22px; }
-    #show-product .product-infor button.order:hover {
-      opacity: 0.7; }
+  #content .news-letter .right form {
+    padding: 20px; } }
+@media screen and (max-width: 772px) {
+  #header .top-header {
+    display: none; }
+  #header .bottom-header .nav, #header .bottom-header .tools {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
