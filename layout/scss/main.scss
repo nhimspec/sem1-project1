@@ -76,6 +76,11 @@ body{
 	.bottom-header{
 		padding-top: 40px;
 		padding-bottom: 40px;
+		.hamburger{
+			.hamburger-box{
+				display: none;
+			}
+		}
 		nav{
 			ul li{
 				margin-right: 40px;
@@ -672,6 +677,60 @@ ABOUT US
 
 /******************RESPONSIVE********************/
 
+@media screen and (max-width: 772px){
+	#header {
+		.top-header {
+			display: none; 
+		}
+		.bottom-header{
+			.logo{
+				display: inline-block;
+			}
+			.hamburger{
+				.hamburger-box{
+					display: inline-block;
+					position: absolute;
+					right: 10px;
+					top:50px;
+				}
+			}
+			.nav,.tools{
+				display: none;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1200px){
+	#header{
+		.bottom-header{
+			nav{
+				margin-left: 20px;
+			}
+			.tools{
+				margin-left: -20px;
+			}
+		}
+	}
+	#content{
+		.row{
+			.seo{
+				.sales{
+					img{
+						margin-left: 30px;
+					}
+					.extra-seo{
+						margin-left: 30px;
+					}
+					>span{
+						margin-left: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 992px) {
 	#content .seo .ads { display: none;}
 	#content .best-sales .products-sales a .product-sale {
@@ -682,23 +741,33 @@ ABOUT US
 		}
 		width: 240px;
 	}
-	#content .news-letter {
-		.left,.right {
-			text-align: center;
+	#content {
+		.news-letter {
+			.left,.right {
+				text-align: center;
+			}
+			.right{
+				form{
+					padding:20px;
+				}
+			}
 		}
-		.right{
-			form{
-				padding:20px;
+		.seo{
+			.sales{
+				text-align: center;
 			}
 		}
 	}
-}
-@media screen and (max-width: 772px) {
-	#header {
-		.top-header { display: none; }
-		.bottom-header{
-			.nav,.tools{
-				display: none;
+	#footer{
+		.row{
+			.footer-logo{
+				float: left;
+			}
+			.contact{
+				float: left;
+				.col-md-4{
+					float: left;
+				}
 			}
 		}
 	}
