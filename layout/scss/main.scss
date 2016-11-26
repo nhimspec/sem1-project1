@@ -14,26 +14,35 @@
     font-family: SegoeuiBoldItalic;
     src: url(../font/SEGOEUIZ.TTF);
 }
+body{
+	font-family: SegoeuiRegular;
+}
 .modal{
-	h4{
+	h3{
 		font-family: "SegoeuiBold";
 	}
 	p{
-		font-size: 18px;
+		font-size: 20px;
 	    font-family: "SegoeuiBold";
 	    color: #ff5912;
 	    font-weight: bold;
 	}
-	a{
-		text-decoration: none;
+	button{
 		font-size: 25px;
 	    font-family: "SegoeuiBold";
 	    color: #ff5912;
 	    font-weight: bold; 
+	    padding: 5px 20px;
+	    border-radius:20px;
 	    &:hover{
-	    	text-decoration: none;
 	    	color: red;
+	    	background-color: #ffffff;
 	    }
+	}
+	h4{
+		text-decoration: none;
+		font-size: 20px;
+	    font-family: "SegoeuiRegular";
 	}
 	h5{
 		text-decoration: none;
@@ -593,6 +602,73 @@
 	}
 
 }
+/*
+HElP
+*/
+#content {
+	.help{
+		text-align: left;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		margin-bottom: 60px;
+		background-color: #ffffff;
+		.header{
+			border-bottom: 1px solid rgb(52, 64, 75);
+			padding-left: 30px;
+		}
+		.help-bottom{
+			padding-top: 20px;
+			padding-left: 30px;
+			.extra-help{
+				padding-bottom: 10px;
+				ul{
+					margin-bottom: 0;
+					li{
+						padding-top: 10px; 
+					}
+				}
+				h3{
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+/*
+ABOUT US
+*/
+#content {
+	.about{
+		text-align: left;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		margin-bottom: 60px;
+		background-color: #ffffff;
+		.header{
+			border-bottom: 1px solid rgb(52, 64, 75);
+			padding-left: 30px;
+		}
+		.about-bottom{
+			padding-top: 20px;
+			padding-left: 30px;
+			.extra-about{
+				padding-bottom: 10px;
+				ul{
+					margin-bottom: 0;
+					li{
+						padding-top: 10px; 
+					}
+				}
+				h3{
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+
 
 /******************RESPONSIVE********************/
 

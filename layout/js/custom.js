@@ -42,7 +42,10 @@ $( function() {
         if ( sales != '' ){
           html += '<span class="sales" style="margin-left:30px;">' + sales + '</span>';
         }
-        html += '<input type="hidden" value="'+ description +'">';
+        html += '<input type="hidden" value="'+ cat +'" id="cat">';
+        html += '<input type="hidden" value="'+ size +'" id="size">';
+        html += '<input type="hidden" value="'+ brand +'" id="brand">';
+        html += '<input type="hidden" value="'+ description +'" id="des">';
         html += '</div></a></div>';
 
         $('#content .single > .row').append($(html));   
@@ -55,6 +58,9 @@ $( function() {
           var name = $product.find("name").text();
           var price = $product.find("price").text();
           var sales = $product.find("sales").text();
+          var cat = $product.find("category").text();
+          var size = $product.find("size").text();
+          var brand = $product.find("brand").text();
           var description = $product.find("description").text();
 
           var html = '<div class="col-md-12"><a class="tap"><div class="product">';
@@ -64,7 +70,10 @@ $( function() {
           if ( sales != '' ){
             html += '<span class="sales" style="margin-left:30px;">' + sales + '</span>';
           }
-          html += '<input type="hidden" value="'+ description +'">';
+          html += '<input type="hidden" value="'+ cat +'" id="cat">';
+          html += '<input type="hidden" value="'+ size +'" id="size">';
+          html += '<input type="hidden" value="'+ brand +'" id="brand">';
+          html += '<input type="hidden" value="'+ description +'" id="des">';
           html += '</div></a></div>';
           
           $('#content .products').append($(html));   
@@ -80,6 +89,9 @@ $( function() {
             var name = $product.find("name").text();
             var price = $product.find("price").text();
             var sales = $product.find("sales").text();
+            var cat = $product.find("category").text();
+            var size = $product.find("size").text();
+            var brand = $product.find("brand").text();
             var description = $product.find("description").text();
 
             var html = '<div class="col-sm-4 item"><a class="tap"><div class="product-sale clearfix">';
@@ -90,7 +102,10 @@ $( function() {
             if ( sales != '' ){
               html += '<span class="sales" style="margin-left:30px;">' + sales + '</span>';
             }
-            html += '<input type="hidden" value="'+ description +'">';
+            html += '<input type="hidden" value="'+ cat +'" id="cat">';
+            html += '<input type="hidden" value="'+ size +'" id="size">';
+            html += '<input type="hidden" value="'+ brand +'" id="brand">';
+            html += '<input type="hidden" value="'+ description +'" id="des">';
             html += '</div></div></a></div>';
 
             $('.best-sales .products-sales').append($(html));   
@@ -176,12 +191,18 @@ $( function() {
           var img = $(this).find('img').attr('src');
           var name = $(this).find('h3').text();
           var price = $(this).find('span').first().text();
-          var description = $(this).find('input').val();
+          var cat = $(this).find('input#cat').val();
+          var size = $(this).find('input#size').val();
+          var brand = $(this).find('input#brand').val();
+          var des = $(this).find('input#des').val();
 
           $('.imagepreview').attr('src', img);
-          $('.modal h4').text(name);
-          $('.modal p').text(price);
-          $('.modal h5').text(description);
+          $('.modal h3').text(name);
+          $('.modal p#price').text(price);
+          $('.modal span#category').text(cat);
+          $('.modal span#size').text(size);
+          $('.modal span#brand').text(brand);
+          $('.modal h4').text(des);
           $('#imagemodal').modal('show');  
     });
 });

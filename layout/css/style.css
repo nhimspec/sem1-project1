@@ -1,481 +1,798 @@
 @font-face {
   font-family: SegoeuiRegular;
-  src: url(../font/SEGOEUI.TTF); }
+  src: url(../font/SEGOEUI.TTF);
+}
+
 @font-face {
   font-family: SegoeuiBold;
-  src: url(../font/SEGOEUIB.TTF); }
+  src: url(../font/SEGOEUIB.TTF);
+}
+
 @font-face {
   font-family: SegoeuiLight;
-  src: url(../font/segoeuii.ttf); }
+  src: url(../font/segoeuii.ttf);
+}
+
 @font-face {
   font-family: SegoeuiBoldItalic;
-  src: url(../font/SEGOEUIZ.TTF); }
-.modal h4 {
-  font-family: "SegoeuiBold"; }
+  src: url(../font/SEGOEUIZ.TTF);
+}
+
+body {
+  font-family: SegoeuiRegular;
+}
+
+.modal h3 {
+  font-family: "SegoeuiBold";
+}
+
 .modal p {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "SegoeuiBold";
   color: #ff5912;
-  font-weight: bold; }
-.modal a {
-  text-decoration: none;
+  font-weight: bold;
+}
+
+.modal button {
   font-size: 25px;
   font-family: "SegoeuiBold";
   color: #ff5912;
-  font-weight: bold; }
-  .modal a:hover {
-    text-decoration: none;
-    color: red; }
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.modal button:hover {
+  color: red;
+  background-color: #ffffff;
+}
+
+.modal h4 {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "SegoeuiRegular";
+}
+
 .modal h5 {
   text-decoration: none;
   font-size: 18px;
-  font-family: "SegoeuiRegular"; }
+  font-family: "SegoeuiRegular";
+}
 
 #header .top-header {
   padding-top: 20px;
   padding-bottom: 25px;
-  border-bottom: 1px solid rgba(230, 232, 235, 0.502); }
-  #header .top-header .left {
-    float: left; }
-    #header .top-header .left .email, #header .top-header .left .phone {
-      float: left;
-      margin-right: 20px;
-      font-family: "SegoeuiRegular"; }
-      #header .top-header .left .email img, #header .top-header .left .phone img {
-        margin-right: 5px; }
-  #header .top-header .right {
-    float: right; }
-    #header .top-header .right i {
-      margin-left: 15px; }
+  border-bottom: 1px solid rgba(230, 232, 235, 0.502);
+}
+
+#header .top-header .left {
+  float: left;
+}
+
+#header .top-header .left .email, #header .top-header .left .phone {
+  float: left;
+  margin-right: 20px;
+  font-family: "SegoeuiRegular";
+}
+
+#header .top-header .left .email img, #header .top-header .left .phone img {
+  margin-right: 5px;
+}
+
+#header .top-header .right {
+  float: right;
+}
+
+#header .top-header .right i {
+  margin-left: 15px;
+}
+
 #header .bottom-header {
   padding-top: 40px;
-  padding-bottom: 40px; }
-  #header .bottom-header nav ul li {
-    margin-right: 40px; }
-    #header .bottom-header nav ul li a {
-      padding: 0;
-      color: black;
-      font-family: "SegoeuiBold"; }
-      #header .bottom-header nav ul li a:hover {
-        text-decoration: none;
-        color: #ff5912;
-        background: #ffffff; }
-      #header .bottom-header nav ul li a.active {
-        color: #ff5912; }
-  #header .bottom-header .tools {
-    text-align: right; }
-    #header .bottom-header .tools i {
-      margin-left: 30px; }
+  padding-bottom: 40px;
+}
+
+#header .bottom-header nav ul li {
+  margin-right: 40px;
+}
+
+#header .bottom-header nav ul li a {
+  padding: 0;
+  color: black;
+  font-family: "SegoeuiBold";
+}
+
+#header .bottom-header nav ul li a:hover {
+  text-decoration: none;
+  color: #ff5912;
+  background: #ffffff;
+}
+
+#header .bottom-header nav ul li a.active {
+  color: #ff5912;
+}
+
+#header .bottom-header .tools {
+  text-align: right;
+}
+
+#header .bottom-header .tools i {
+  margin-left: 30px;
+}
 
 #sidebar {
   background-image: url("../images/header_background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 230px 0; }
-  #sidebar h1 {
-    font-size: 52px;
-    font-family: "SegoeuiBold";
-    color: #ff5912;
-    text-transform: uppercase; }
-  #sidebar h2 {
-    font-size: 18px;
-    font-family: "SegoeuiBold";
-    color: #3c4751; }
-  #sidebar p {
-    font-size: 16px;
-    font-family: "SegoeuiRegular";
-    color: #495662;
-    margin-bottom: 60px; }
-  #sidebar span {
-    font-size: 18px;
-    font-family: "SegoeuiBold";
-    color: #34404b;
-    margin-right: 25px; }
-    #sidebar span:last-child {
-      color: #ff5912; }
+  padding: 230px 0;
+}
+
+#sidebar h1 {
+  font-size: 52px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  text-transform: uppercase;
+}
+
+#sidebar h2 {
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #3c4751;
+}
+
+#sidebar p {
+  font-size: 16px;
+  font-family: "SegoeuiRegular";
+  color: #495662;
+  margin-bottom: 60px;
+}
+
+#sidebar span {
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #34404b;
+  margin-right: 25px;
+}
+
+#sidebar span:last-child {
+  color: #ff5912;
+}
 
 #content {
   background: #f4f6f8;
   text-align: center;
   padding-top: 120px;
-  padding-bottom: 120px; }
-  #content .title h3 {
-    font-size: 36px;
-    font-family: "SegoeuiBold";
-    text-transform: uppercase;
-    margin-bottom: 25px; }
-    #content .title h3 span {
-      color: #ff5912; }
-  #content .title p {
-    font-size: 16px;
-    font-family: "SegoeuiRegular";
-    color: #495662;
-    margin-bottom: 80px; }
-  #content .products {
-    padding-bottom: 120px; }
-    #content .products a {
-      text-decoration: none;
-      display: block;
-      color: black;
-      cursor: pointer; }
-      #content .products a .product {
-        background-color: #ffffff;
-        padding-top: 30px;
-        padding-bottom: 22px; }
-        #content .products a .product img {
-          width: 145px;
-          height: 218px;
-          margin: 0 auto 28px; }
-        #content .products a .product h3 {
-          margin-top: 0;
-          margin-bottom: 25px;
-          font-family: "SegoeuiBold";
-          font-size: 18px; }
-        #content .products a .product span {
-          margin-top: 0;
-          margin-bottom: 0;
-          font-size: 18px;
-          font-family: "SegoeuiBold";
-          color: #ff5912; }
-          #content .products a .product span.sales {
-            text-decoration: line-through; }
-    #content .products .owl-dots {
-      margin: 80px 15px 0;
-      height: 60px;
-      background-color: #ffffff; }
-      #content .products .owl-dots .owl-dot {
-        display: inline-block;
-        height: 60px; }
-        #content .products .owl-dots .owl-dot span {
-          width: 10px;
-          height: 10px;
-          margin: 24px 7px;
-          display: block;
-          background-color: #ff5912;
-          border: 1px solid #ff5912;
-          border-radius: 50%; }
-        #content .products .owl-dots .owl-dot.active span {
-          background-color: #ffffff; }
-  #content .seo {
-    padding-bottom: 120px; }
-    #content .seo .sales {
-      text-align: left;
-      background: #ffffff;
-      min-height: 100px; }
-      #content .seo .sales img {
-        margin-left: 65px;
-        display: inline-block;
-        margin-top: -20px; }
-      #content .seo .sales .extra-seo {
-        margin-left: 55px;
-        display: inline-block;
-        text-align: left; }
-        #content .seo .sales .extra-seo h3 {
-          font-size: 22px;
-          font-family: "SegoeuiBold";
-          color: #34404b; }
-        #content .seo .sales .extra-seo p {
-          font-size: 12px;
-          font-family: "SegoeuiRegular";
-          color: #495662; }
-      #content .seo .sales > span {
-        margin-left: 75px;
-        display: inline-block;
-        color: #ff5912; }
-        #content .seo .sales > span i {
-          font-size: 22px; }
-        #content .seo .sales > span span {
-          margin-left: 20px;
-          font-size: 22px;
-          font-family: "SegoeuiBold";
-          color: #ff5912; }
-    #content .seo .ads {
-      min-height: 100px;
-      background: #ffffff; }
-      #content .seo .ads img {
-        width: 100%;
-        height: 100%; }
-  #content .best-sales {
-    padding-bottom: 120px; }
-    #content .best-sales .title h3 {
-      font-size: 36px;
-      font-family: "SegoeuiBold"; }
-      #content .best-sales .title h3 span {
-        color: #ff5912; }
-    #content .best-sales .title p {
-      font-size: 16px;
-      font-family: "SegoeuiRegular";
-      color: #495662; }
-    #content .best-sales .products-sales a {
-      cursor: pointer;
-      text-decoration: none;
-      display: block; }
-      #content .best-sales .products-sales a .product-sale {
-        padding-top: 30px;
-        padding-left: 25px;
-        background: #ffffff;
-        padding-bottom: 30px; }
-        #content .best-sales .products-sales a .product-sale img {
-          float: left;
-          margin-right: 50px;
-          width: 90px;
-          height: 90px; }
-        #content .best-sales .products-sales a .product-sale .extra-product-sales {
-          float: left; }
-          #content .best-sales .products-sales a .product-sale .extra-product-sales h3 {
-            font-size: 18px;
-            font-family: "SegoeuiBold";
-            color: #34404b;
-            font-weight: bold; }
-          #content .best-sales .products-sales a .product-sale .extra-product-sales span {
-            font-size: 16px;
-            font-family: "SegoeuiBold";
-            color: #ff5912; }
-            #content .best-sales .products-sales a .product-sale .extra-product-sales span.sales {
-              text-decoration: line-through; }
-  #content .news-letter {
-    background-color: #ffffff; }
-    #content .news-letter .left {
-      padding-left: 70px; }
-      #content .news-letter .left h3 {
-        float: left;
-        font-size: 18px;
-        font-family: "SegoeuiBold";
-        color: #ff5912;
-        font-weight: bold;
-        text-transform: uppercase;
-        height: 123px;
-        line-height: 123px;
-        margin: 0; }
-      #content .news-letter .left p {
-        float: left;
-        font-size: 14px;
-        font-family: "SegoeuiItalic";
-        color: #34404b;
-        height: 123px;
-        line-height: 123px;
-        margin: 0 0 0 20px; }
-    #content .news-letter .right {
-      text-align: right;
-      padding-right: 55px;
-      height: 123px; }
-      #content .news-letter .right form {
-        padding: 40px 0; }
-        #content .news-letter .right form input[type="text"] {
-          display: inline-block;
-          width: 300px;
-          margin-right: 20px; }
-        #content .news-letter .right form input[type="submit"] {
-          background-color: #ff5912;
-          padding: 10px 28px;
-          border: 0;
-          color: #ffffff;
-          font-size: 14px;
-          border-radius: 6px;
-          font-family: "SegoeuiBold"; }
+  padding-bottom: 120px;
+}
+
+#content .title h3 {
+  font-size: 36px;
+  font-family: "SegoeuiBold";
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+#content .title h3 span {
+  color: #ff5912;
+}
+
+#content .title p {
+  font-size: 16px;
+  font-family: "SegoeuiRegular";
+  color: #495662;
+  margin-bottom: 80px;
+}
+
+#content .products {
+  padding-bottom: 120px;
+}
+
+#content .products a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  cursor: pointer;
+}
+
+#content .products a .product {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 22px;
+}
+
+#content .products a .product img {
+  width: 145px;
+  height: 218px;
+  margin: 0 auto 28px;
+}
+
+#content .products a .product h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: "SegoeuiBold";
+  font-size: 18px;
+}
+
+#content .products a .product span {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+}
+
+#content .products a .product span.sales {
+  text-decoration: line-through;
+}
+
+#content .products .owl-dots {
+  margin: 80px 15px 0;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+#content .products .owl-dots .owl-dot {
+  display: inline-block;
+  height: 60px;
+}
+
+#content .products .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 24px 7px;
+  display: block;
+  background-color: #ff5912;
+  border: 1px solid #ff5912;
+  border-radius: 50%;
+}
+
+#content .products .owl-dots .owl-dot.active span {
+  background-color: #ffffff;
+}
+
+#content .seo {
+  padding-bottom: 120px;
+}
+
+#content .seo .sales {
+  text-align: left;
+  background: #ffffff;
+  min-height: 100px;
+}
+
+#content .seo .sales img {
+  margin-left: 65px;
+  display: inline-block;
+  margin-top: -20px;
+}
+
+#content .seo .sales .extra-seo {
+  margin-left: 55px;
+  display: inline-block;
+  text-align: left;
+}
+
+#content .seo .sales .extra-seo h3 {
+  font-size: 22px;
+  font-family: "SegoeuiBold";
+  color: #34404b;
+}
+
+#content .seo .sales .extra-seo p {
+  font-size: 12px;
+  font-family: "SegoeuiRegular";
+  color: #495662;
+}
+
+#content .seo .sales > span {
+  margin-left: 75px;
+  display: inline-block;
+  color: #ff5912;
+}
+
+#content .seo .sales > span i {
+  font-size: 22px;
+}
+
+#content .seo .sales > span span {
+  margin-left: 20px;
+  font-size: 22px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+}
+
+#content .seo .ads {
+  min-height: 100px;
+  background: #ffffff;
+}
+
+#content .seo .ads img {
+  width: 100%;
+  height: 100%;
+}
+
+#content .best-sales {
+  padding-bottom: 120px;
+}
+
+#content .best-sales .title h3 {
+  font-size: 36px;
+  font-family: "SegoeuiBold";
+}
+
+#content .best-sales .title h3 span {
+  color: #ff5912;
+}
+
+#content .best-sales .title p {
+  font-size: 16px;
+  font-family: "SegoeuiRegular";
+  color: #495662;
+}
+
+#content .best-sales .products-sales a {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+#content .best-sales .products-sales a .product-sale {
+  padding-top: 30px;
+  padding-left: 25px;
+  background: #ffffff;
+  padding-bottom: 30px;
+}
+
+#content .best-sales .products-sales a .product-sale img {
+  float: left;
+  margin-right: 50px;
+  width: 90px;
+  height: 90px;
+}
+
+#content .best-sales .products-sales a .product-sale .extra-product-sales {
+  float: left;
+}
+
+#content .best-sales .products-sales a .product-sale .extra-product-sales h3 {
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #34404b;
+  font-weight: bold;
+}
+
+#content .best-sales .products-sales a .product-sale .extra-product-sales span {
+  font-size: 16px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+}
+
+#content .best-sales .products-sales a .product-sale .extra-product-sales span.sales {
+  text-decoration: line-through;
+}
+
+#content .news-letter {
+  background-color: #ffffff;
+}
+
+#content .news-letter .left {
+  padding-left: 70px;
+}
+
+#content .news-letter .left h3 {
+  float: left;
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 123px;
+  line-height: 123px;
+  margin: 0;
+}
+
+#content .news-letter .left p {
+  float: left;
+  font-size: 14px;
+  font-family: "SegoeuiItalic";
+  color: #34404b;
+  height: 123px;
+  line-height: 123px;
+  margin: 0 0 0 20px;
+}
+
+#content .news-letter .right {
+  text-align: right;
+  padding-right: 55px;
+  height: 123px;
+}
+
+#content .news-letter .right form {
+  padding: 40px 0;
+}
+
+#content .news-letter .right form input[type="text"] {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+}
+
+#content .news-letter .right form input[type="submit"] {
+  background-color: #ff5912;
+  padding: 10px 28px;
+  border: 0;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+  font-family: "SegoeuiBold";
+}
 
 #footer .container {
   padding-top: 60px;
-  padding-bottom: 60px; }
-  #footer .container .footer-logo {
-    padding-top: 25px; }
-    #footer .container .footer-logo p {
-      margin: 20px 0 0 0;
-      font-size: 14px;
-      font-family: "SegoeuiRegular";
-      color: #28313b; }
-  #footer .container .contact ul {
-    padding: 0;
-    margin: 0; }
-    #footer .container .contact ul li a {
-      font-size: 14px;
-      color: black;
-      padding-left: 0;
-      padding-right: 0;
-      font-family: "SegoeuiRegular"; }
-      #footer .container .contact ul li a:before {
-        content: "";
-        line-height: 5px;
-        width: 5px;
-        height: 5px;
-        background-color: black;
-        float: left;
-        margin: 8px 8px 0;
-        border-radius: 50%; }
-    #footer .container .contact ul li:hover a {
-      color: #ff5912;
-      text-decoration: none;
-      background-color: #ffffff; }
-      #footer .container .contact ul li:hover a:before {
-        background-color: #ff5912; }
+  padding-bottom: 60px;
+}
+
+#footer .container .footer-logo {
+  padding-top: 25px;
+}
+
+#footer .container .footer-logo p {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  font-family: "SegoeuiRegular";
+  color: #28313b;
+}
+
+#footer .container .contact ul {
+  padding: 0;
+  margin: 0;
+}
+
+#footer .container .contact ul li a {
+  font-size: 14px;
+  color: black;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "SegoeuiRegular";
+}
+
+#footer .container .contact ul li a:before {
+  content: "";
+  line-height: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  float: left;
+  margin: 8px 8px 0;
+  border-radius: 50%;
+}
+
+#footer .container .contact ul li:hover a {
+  color: #ff5912;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+#footer .container .contact ul li:hover a:before {
+  background-color: #ff5912;
+}
 
 /**************************PRODUCT**********************************/
 #content .widget {
-  text-align: left; }
-  #content .widget .categories {
-    background-color: #ffffff;
-    padding-left: 40px;
-    margin-bottom: 30px; }
-    #content .widget .categories h3 {
-      font-size: 18px;
-      margin-top: 40px;
-      margin-bottom: 25px;
-      font-family: "SegoeuiBold";
-      color: #ff5912;
-      font-weight: bold; }
-    #content .widget .categories ul li {
-      padding-bottom: 35px;
-      font-size: 16px;
-      font-family: "SegoeuiBold"; }
-      #content .widget .categories ul li div {
-        cursor: pointer; }
-        #content .widget .categories ul li div.active {
-          color: #ff5912; }
-  #content .widget .price {
-    background-color: #ffffff;
-    padding-left: 40px;
-    margin-bottom: 30px; }
-    #content .widget .price h3 {
-      font-size: 18px;
-      margin-top: 40px;
-      margin-bottom: 65px;
-      font-family: "SegoeuiBold";
-      color: #ff5912; }
-    #content .widget .price label {
-      border: 0;
-      color: #34404b;
-      font-family: "SegoeuiRegular"; }
-      #content .widget .price label#amount1 {
-        position: absolute;
-        bottom: 20px; }
-      #content .widget .price label#amount2 {
-        position: absolute;
-        bottom: 20px; }
-    #content .widget .price #slider-range {
-      margin-bottom: 40px;
-      height: 3px;
-      border: 0;
-      background-color: #edf0f2; }
-      #content .widget .price #slider-range div.ui-slider-range {
-        background-color: #34404b; }
-      #content .widget .price #slider-range span {
-        background: #34404b;
-        border-radius: 50%;
-        width: 12px;
-        height: 12px;
-        cursor: pointer; }
-  #content .widget .sizes {
-    background-color: #ffffff;
-    padding-left: 40px;
-    margin-bottom: 30px; }
-    #content .widget .sizes h3 {
-      font-size: 18px;
-      margin-top: 40px;
-      margin-bottom: 25px;
-      font-family: "SegoeuiBold";
-      color: #ff5912;
-      font-weight: bold; }
-    #content .widget .sizes ul li {
-      padding-bottom: 35px; }
-      #content .widget .sizes ul li div {
-        cursor: pointer;
-        font-size: 16px;
-        font-family: "SegoeuiBold"; }
-        #content .widget .sizes ul li div:before {
-          content: "";
-          line-height: 5px;
-          width: 5px;
-          height: 5px;
-          background-color: black;
-          float: left;
-          margin: 8px 8px 0;
-          border-radius: 50%; }
-        #content .widget .sizes ul li div.active {
-          color: #ff5912; }
-          #content .widget .sizes ul li div.active:before {
-            background-color: #ff5912; }
-  #content .widget .brands {
-    background-color: #ffffff;
-    padding-left: 40px;
-    margin-bottom: 30px; }
-    #content .widget .brands h3 {
-      font-size: 18px;
-      margin-top: 40px;
-      margin-bottom: 25px;
-      font-family: "SegoeuiBold";
-      color: #ff5912;
-      font-weight: bold; }
-    #content .widget .brands ul li {
-      padding-bottom: 35px; }
-      #content .widget .brands ul li div {
-        cursor: pointer;
-        font-size: 16px;
-        font-family: "SegoeuiBold"; }
-        #content .widget .brands ul li div:before {
-          content: "";
-          line-height: 5px;
-          width: 5px;
-          height: 5px;
-          background-color: black;
-          float: left;
-          margin: 8px 8px 0;
-          border-radius: 50%; }
-        #content .widget .brands ul li div.active {
-          color: #ff5912; }
-          #content .widget .brands ul li div.active:before {
-            background-color: #ff5912; }
+  text-align: left;
+}
+
+#content .widget .categories {
+  background-color: #ffffff;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+#content .widget .categories h3 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  font-weight: bold;
+}
+
+#content .widget .categories ul li {
+  padding-bottom: 35px;
+  font-size: 16px;
+  font-family: "SegoeuiBold";
+}
+
+#content .widget .categories ul li div {
+  cursor: pointer;
+}
+
+#content .widget .categories ul li div.active {
+  color: #ff5912;
+}
+
+#content .widget .price {
+  background-color: #ffffff;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+#content .widget .price h3 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 65px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+}
+
+#content .widget .price label {
+  border: 0;
+  color: #34404b;
+  font-family: "SegoeuiRegular";
+}
+
+#content .widget .price label#amount1 {
+  position: absolute;
+  bottom: 20px;
+}
+
+#content .widget .price label#amount2 {
+  position: absolute;
+  bottom: 20px;
+}
+
+#content .widget .price #slider-range {
+  margin-bottom: 40px;
+  height: 3px;
+  border: 0;
+  background-color: #edf0f2;
+}
+
+#content .widget .price #slider-range div.ui-slider-range {
+  background-color: #34404b;
+}
+
+#content .widget .price #slider-range span {
+  background: #34404b;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+#content .widget .sizes {
+  background-color: #ffffff;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+#content .widget .sizes h3 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  font-weight: bold;
+}
+
+#content .widget .sizes ul li {
+  padding-bottom: 35px;
+}
+
+#content .widget .sizes ul li div {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "SegoeuiBold";
+}
+
+#content .widget .sizes ul li div:before {
+  content: "";
+  line-height: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  float: left;
+  margin: 8px 8px 0;
+  border-radius: 50%;
+}
+
+#content .widget .sizes ul li div.active {
+  color: #ff5912;
+}
+
+#content .widget .sizes ul li div.active:before {
+  background-color: #ff5912;
+}
+
+#content .widget .brands {
+  background-color: #ffffff;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+#content .widget .brands h3 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  font-weight: bold;
+}
+
+#content .widget .brands ul li {
+  padding-bottom: 35px;
+}
+
+#content .widget .brands ul li div {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "SegoeuiBold";
+}
+
+#content .widget .brands ul li div:before {
+  content: "";
+  line-height: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  float: left;
+  margin: 8px 8px 0;
+  border-radius: 50%;
+}
+
+#content .widget .brands ul li div.active {
+  color: #ff5912;
+}
+
+#content .widget .brands ul li div.active:before {
+  background-color: #ff5912;
+}
+
 #content .single {
-  padding-bottom: 80px; }
-  #content .single a {
-    cursor: pointer;
-    text-decoration: none;
-    display: block; }
-    #content .single a .product-single {
-      background: #ffffff;
-      padding-top: 30px;
-      padding-bottom: 25px;
-      margin-bottom: 30px;
-      max-height: 369px; }
-      #content .single a .product-single img {
-        width: 160px;
-        height: 215px;
-        margin-bottom: 30px; }
-      #content .single a .product-single h3 {
-        font-size: 18px;
-        font-family: "SegoeuiBold";
-        color: #34404b;
-        font-weight: bold;
-        margin-bottom: 25px;
-        margin-top: 0; }
-      #content .single a .product-single span {
-        font-size: 18px;
-        font-family: "SegoeuiBold";
-        color: #ff5912;
-        font-weight: bold;
-        margin: 0; }
-        #content .single a .product-single span.sales {
-          text-decoration: line-through; }
+  padding-bottom: 80px;
+}
+
+#content .single a {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+#content .single a .product-single {
+  background: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  max-height: 369px;
+}
+
+#content .single a .product-single img {
+  width: 160px;
+  height: 215px;
+  margin-bottom: 30px;
+}
+
+#content .single a .product-single h3 {
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #34404b;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+#content .single a .product-single span {
+  font-size: 18px;
+  font-family: "SegoeuiBold";
+  color: #ff5912;
+  font-weight: bold;
+  margin: 0;
+}
+
+#content .single a .product-single span.sales {
+  text-decoration: line-through;
+}
+
+/*
+HElP
+*/
+#content .help {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+}
+
+#content .help .header {
+  border-bottom: 1px solid #34404b;
+  padding-left: 30px;
+}
+
+#content .help .help-bottom {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#content .help .help-bottom .extra-help {
+  padding-bottom: 10px;
+}
+
+#content .help .help-bottom .extra-help ul {
+  margin-bottom: 0;
+}
+
+#content .help .help-bottom .extra-help ul li {
+  padding-top: 10px;
+}
+
+#content .help .help-bottom .extra-help h3 {
+  font-weight: bold;
+}
+
+/*
+ABOUT US
+*/
+#content .about {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+}
+
+#content .about .header {
+  border-bottom: 1px solid #34404b;
+  padding-left: 30px;
+}
+
+#content .about .about-bottom {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#content .about .about-bottom .extra-about {
+  padding-bottom: 10px;
+}
+
+#content .about .about-bottom .extra-about ul {
+  margin-bottom: 0;
+}
+
+#content .about .about-bottom .extra-about ul li {
+  padding-top: 10px;
+}
+
+#content .about .about-bottom .extra-about h3 {
+  font-weight: bold;
+}
 
 /******************RESPONSIVE********************/
 @media screen and (max-width: 992px) {
   #content .seo .ads {
-    display: none; }
-
+    display: none;
+  }
   #content .best-sales .products-sales a .product-sale {
     text-align: center;
-    width: 240px; }
-    #content .best-sales .products-sales a .product-sale img {
-      display: inline-block;
-      float: none; }
-
+    width: 240px;
+  }
+  #content .best-sales .products-sales a .product-sale img {
+    display: inline-block;
+    float: none;
+  }
   #content .news-letter .left, #content .news-letter .right {
-    text-align: center; }
+    text-align: center;
+  }
   #content .news-letter .right form {
-    padding: 20px; } }
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 772px) {
   #header .top-header {
-    display: none; }
+    display: none;
+  }
   #header .bottom-header .nav, #header .bottom-header .tools {
-    display: none; } }
-
-/*# sourceMappingURL=style.css.map */
+    display: none;
+  }
+}
