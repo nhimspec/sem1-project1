@@ -8,9 +8,7 @@
       <brand>reebok</brand>
       <size>small</size>
       <image>/man/s/1-Man-Front-S-1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
    <product id="2">
       <name>LES MILLS Strappy Tank</name>
@@ -20,9 +18,7 @@
       <brand>zara</brand>
       <size>medium</size>
       <image>/women/m/7-Woman-Front-M-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo tập thể dục cho nữ với kiểu dáng thoải mái</description>
    </product>
    <product id="3">
       <name>LES MILLS Burnout Tee</name>
@@ -32,9 +28,7 @@
       <brand>nike</brand>
       <size>medium</size>
       <image>/women/m/9-Woman-Front-M-5.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nữ</description>
    </product>
    <product id="4">
       <name>JJ Watt S.W.A.T.T. Team Tee R</name>
@@ -44,9 +38,7 @@
       <brand>addidas</brand>
       <size>small</size>
       <image>/man/s/7-Man-Front-S-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
     <product id="5">
       <name>JJ Watt Hunt Greatness Tee W</name>
@@ -56,9 +48,7 @@
       <brand>zara</brand>
       <size>small</size>
       <image>/man/s/9-Man-Front-S-5.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
    <product id="6">
       <name>JJ Watt Hunt Greatness Tee B</name>
@@ -67,9 +57,7 @@
       <brand>nike</brand>
       <size>small</size>
       <image>/man/s/11-Man-Front-S-6.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
    <!-- Medium -->
    <product id="7">
@@ -79,9 +67,7 @@
       <brand>addidas</brand>
       <size>medium</size>
       <image>/man/m/1-Man-Front-M-1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Hàng Reebok với chất liệu thoải mái</description>
    </product>
    <product id="8">
       <name>JJ Watt Flag Tee</name>
@@ -91,9 +77,7 @@
       <brand>nike</brand>
       <size>medium</size>
       <image>/man/m/3-Man-Front-M-2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
    <product id="9">
       <name>JJ Watt Hunt List Tee</name>
@@ -102,9 +86,7 @@
       <brand>reebok</brand>
       <size>medium</size>
       <image>/man/m/5-Man-Front-M-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
    <product id="10">
       <name>JJ Watt S.W.A.T.T Team Tee</name>
@@ -114,9 +96,7 @@
       <brand>reebok</brand>
       <size>medium</size>
       <image>/man/m/7-Man-Front-M-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
    <product id="11">
       <name>ACTIVCHILL Short Sleeve Shirt</name>
@@ -125,9 +105,7 @@
       <brand>nike</brand>
       <size>medium</size>
       <image>/man/m/9-Man-Front-M-5.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo Reebok ôm dáng cho Nam</description>
    </product>
    <product id="12">
       <name>ACTIVCHILL Short Sleeve Shirt</name>
@@ -136,9 +114,7 @@
       <brand>addidas</brand>
       <size>medium</size>
        <image>/man/m/11-Man-Front-M-6.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo Reebok ôm dáng cho Nam</description>
    </product>
    <product id="13">
       <name>ACTIVCHILL Short Sleeve Shirt</name>
@@ -147,9 +123,7 @@
       <brand>reebok</brand>
       <size>medium</size>
        <image>/man/m/13-Man-Front-M-7.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo Reebok ôm dáng cho Nam</description>
    </product>
    <!-- Medium -->
 
@@ -166,15 +140,14 @@
       foundation for a new society.</description>
    </product>
    <product id="15">
-      <name>reebok Training</name>
+      <name>Reebok Training</name>
       <category>men</category>
       <price>41.99</price>
+      <sales>49.99$</sales>
       <brand>reebok</brand>
       <size>large</size>
       <image>/man/l/3-Man-Front-l-2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo Reebok ôm dáng cho Nam</description>
    </product>
     <product id="16">
       <name>Team Normal Training</name>
@@ -183,20 +156,17 @@
       <brand>reebok</brand>
       <size>large</size>
       <image>/man/l/5-Man-Front-l-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo Reebok ôm dáng cho Nam</description>
    </product>
    <product id="17">
-      <name>reebok Training</name>
+      <name>Reebok Training</name>
       <category>men</category>
       <price>41.99</price>
+      <sales>49.99$</sales>
       <brand>nike</brand>
       <size>large</size>
       <image>/man/l/7-Man-Front-l-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo Reebok ôm dáng cho Nam</description>
    </product>
    <product id="18">
       <name>Black reebok Training</name>
@@ -205,9 +175,7 @@
       <brand>reebok</brand>
       <size>large</size>
       <image>/man/l/9-Man-Front-l-5.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo Reebok ôm dáng cho Nam</description>
    </product>
    <!-- Large -->
 
@@ -219,9 +187,7 @@
       <brand>addidas</brand>
       <size>x-large</size>
       <image>/man/xl/1-Man-Front-xl-1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo kiểu dáng hoodie với Achất liệu Microfleece thoải mái</description>
    </product>
    <product id="20">
       <name>Light Microfleece 1/4 Zip Black</name>
@@ -230,9 +196,7 @@
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/man/xl/3-Man-Front-xl-2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo kiểu dáng hoodie với chất liệu Microfleece thoải mái</description>
    </product>
     <product id="21">
       <name>Light Microfleece 1/4 Zip Red</name>
@@ -241,42 +205,35 @@
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/man/xl/5-Man-Front-xl-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo kiểu dáng hoodie với chất liệu Microfleece thoải mái</description>
    </product>
    <product id="22">
-      <name>reebok Black</name>
+      <name>Reebok Black</name>
       <category>men</category>
       <price>42.99</price>
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/man/xl/7-Man-Front-xl-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo kiểu dáng hoodie với chất liệu Microfleece thoải mái</description>
    </product>
     <product id="23">
-      <name>reebok Gray</name>
+      <name>Reebok Gray</name>
       <category>men</category>
       <price>39.99</price>
+      <sales>49.99$</sales>
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/man/xl/9-Man-Front-xl-5.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo kiểu dáng hoodie với chất liệu Microfleece thoải mái</description>
    </product>
    <product id="24">
-      <name>reebok Blue</name>
+      <name>Reebok Blue</name>
       <category>men</category>
       <price>42.99</price>
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/man/xl/11-Man-Front-xl-6.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo kiểu dáng hoodie với chất liệu Microfleece thoải mái</description>
    </product>
 
 
@@ -288,9 +245,7 @@
       <brand>reebok</brand>
       <size>small</size>
       <image>/women/s/1-Woman-Front-S-1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo bóng rỗ cho Nữ</description>
    </product>
    <product id="26">
       <name>LES MILLS Recycled Tanked</name>
@@ -299,9 +254,7 @@
       <brand>reebok</brand>
       <size>small</size>
       <image>/women/s/3-Woman-Front-S-2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ thời trang cho Nữ</description>
    </product>
    <product id="27">
       <name>LES MILLS GRIT Muscle Tank</name>
@@ -310,9 +263,7 @@
       <brand>reebok</brand>
       <size>small</size>
       <image>/women/s/5-Woman-Front-S-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ thời trang cho Nữ</description>
    </product>
     <product id="28">
       <name>LES MILLS Athletic Tank</name>
@@ -321,20 +272,17 @@
       <brand>zara</brand>
       <size>small</size>
       <image>/women/s/7-Woman-Front-S-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ thời trang cho Nữ</description>
    </product>
    <product id="29">
       <name>LES MILLS Cycle Tank</name>
       <category>women</category>
       <price>38.99</price>
+      <sales>49.99$</sales>
       <brand>reebok</brand>
       <size>small</size>
       <image>/women/s/9-Woman-Front-S-5.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ thời trang cho Nữ</description>
    </product>
    <!-- folder medium women-->
     <product id="30">
@@ -344,9 +292,7 @@
       <brand>reebok</brand>
       <size>medium</size>
       <image>/women/m/1-Woman-Front-M-1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ thời trang cho Nữ</description>
    </product>
    <product id="31">
       <name>LES MILLS Balance Bra Tank</name>
@@ -355,9 +301,7 @@
       <brand>reebok</brand>
       <size>medium</size>
       <image>/women/m/3-Woman-Front-M-2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ thời trang cho Nữ</description>
    </product>
    <product id="32">
       <name>LES MILLS Foil Muscle Tank</name>
@@ -366,20 +310,17 @@
       <brand>nike</brand>
       <size>medium</size>
       <image>/women/m/5-Woman-Front-M-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ thời trang cho Nữ</description>
    </product>
    <product id="33">
       <name>JJ Watt Hunt Greatness Tee</name>
       <category>men</category>
       <price>21.99</price>
+      <sales>29.99$</sales>
       <brand>reebok</brand>
       <size>small</size>
       <image>/man/s/3-Man-Front-S-2.jpg</image>
-      <description>A former architect battles corporate zombies, 
-      an evil sorceress, and her own childhood to become queen 
-      of the world.</description>
+      <description>Áo thun cho Nam</description>
    </product>
    <product id="34">
       <name>JJ Watt S.W.A.T.T. Team Tee B</name>
@@ -388,32 +329,28 @@
       <brand>reebok</brand>
       <size>small</size>
       <image>/man/s/5-Man-Front-S-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun cho Nam</description>
    </product>
    <!-- foloder Large -->
     <product id="35">
       <name>LES MILLS Muscle Tank</name>
       <category>women</category>
       <price>37.99</price>
+
       <brand>nike</brand>
       <size>large</size>
       <image>/women/l/1-Woman-Front-L-1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ loại ngắn thời trang</description>
    </product>
    <product id="36">
       <name>Cardio Mesh Tee</name>
       <category>women</category>
       <price>35.99</price>
+      <sales>45.99$</sales>
       <brand>nike</brand>
       <size>large</size>
       <image>/women/l/3-Woman-Front-L-2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ loại ngắn thời trang</description>
    </product>
     <product id="37">
       <name>Cardio Mesh Tee</name>
@@ -422,9 +359,7 @@
       <brand>zara</brand>
       <size>large</size>
       <image>/women/l/5-Woman-Front-L-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ loại ngắn thời trang</description>
    </product>
    <product id="38">
       <name>Dance Asymmetric Reebok Tee</name>
@@ -433,21 +368,18 @@
       <brand>zara</brand>
       <size>large</size>
       <image>/women/l/7-Woman-Front-L-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun dài cho Nữ</description>
    </product>
    <!-- x-large -->
    <product id="39">
       <name>Dance Reebok Tee</name>
       <category>women</category>
       <price>29.99</price>
+      <sales>39.99$</sales>
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/women/xl/1-Woman-Front-XL-1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun dài cho Nữ</description>
    </product>
    <product id="40">
       <name>Dance Reebok Tee</name>
@@ -456,9 +388,7 @@
       <brand>nike</brand>
       <size>x-large</size>
       <image>/women/xl/3-Woman-Front-XL-2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun cổ tim</description>
    </product>
    <product id="41">
       <name>LES MILLS V-Neck Tee</name>
@@ -467,9 +397,7 @@
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/women/xl/5-Woman-Front-XL-3.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo 3 lỗ dài</description>
    </product>
     <product id="42">
       <name>LES MILLS Dry Dre Racerback</name>
@@ -478,9 +406,7 @@
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/women/xl/7-Woman-Front-XL-4.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo tập thể dục cho Nữ</description>
    </product>
    <product id="43">
       <name>LES MILLS BODYPUMP Tank</name>
@@ -489,9 +415,7 @@
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/women/xl/9-Woman-Front-XL-5.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nữ</description>
    </product>
     <product id="44">
       <name>LES MILLS BODYCOMBAT Tank</name>
@@ -500,9 +424,7 @@
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/women/xl/11-Woman-Front-XL-6.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nữ</description>
    </product>
    <product id="45">
       <name>Womens LM AVON 39 Tank</name>
@@ -511,32 +433,28 @@
       <brand>reebok</brand>
       <size>x-large</size>
       <image>/women/xl/13-Woman-Front-XL-7.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo thun nữ</description>
    </product>
    <!-- Chidren -->
    <product id="46">
       <name>Disney - Pre School</name>
       <category>childrens</category>
       <price>14.99</price>
+      <sales>19.99$</sales>
       <brand>nike</brand>
       <size></size>
       <image>/children/children1.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo trẻ con cho ngày mới nhập học</description>
    </product>
    <product id="47">
       <name>Disney - Pre School</name>
       <category>childrens</category>
       <price>12.99</price>
+      <sales>19.99$</sales>
       <brand>reebok</brand>
       <size></size>
       <image>/children/children2.jpg</image>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
+      <description>Áo trẻ con cho ngày mới nhập học</description>
    </product>
    
  </products>
