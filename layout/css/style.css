@@ -59,6 +59,11 @@ body {
   font-family: "SegoeuiRegular";
 }
 
+.modal form .form-group input, .modal form .form-group select {
+  width: 50%;
+  margin: auto;
+}
+
 #header .top-header {
   padding-top: 20px;
   padding-bottom: 25px;
@@ -90,6 +95,10 @@ body {
 #header .bottom-header {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+#header .bottom-header .hamburger .hamburger-box {
+  display: none;
 }
 
 #header .bottom-header nav ul li {
@@ -768,6 +777,42 @@ ABOUT US
 }
 
 /******************RESPONSIVE********************/
+@media screen and (max-width: 772px) {
+  #header .top-header {
+    display: none;
+  }
+  #header .bottom-header .logo {
+    display: inline-block;
+  }
+  #header .bottom-header .hamburger .hamburger-box {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+  }
+  #header .bottom-header .nav, #header .bottom-header .tools {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header .bottom-header nav {
+    margin-left: 20px;
+  }
+  #header .bottom-header .tools {
+    margin-left: -20px;
+  }
+  #content .row .seo .sales img {
+    margin-left: 30px;
+  }
+  #content .row .seo .sales .extra-seo {
+    margin-left: 30px;
+  }
+  #content .row .seo .sales > span {
+    margin-left: 30px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   #content .seo .ads {
     display: none;
@@ -786,13 +831,16 @@ ABOUT US
   #content .news-letter .right form {
     padding: 20px;
   }
-}
-
-@media screen and (max-width: 772px) {
-  #header .top-header {
-    display: none;
+  #content .seo .sales {
+    text-align: center;
   }
-  #header .bottom-header .nav, #header .bottom-header .tools {
-    display: none;
+  #footer .row .footer-logo {
+    float: left;
+  }
+  #footer .row .contact {
+    float: left;
+  }
+  #footer .row .contact .col-md-4 {
+    float: left;
   }
 }

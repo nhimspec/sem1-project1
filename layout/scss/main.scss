@@ -49,6 +49,14 @@ body{
 		font-size: 18px;
 	    font-family: "SegoeuiRegular";
 	}
+	form{
+		.form-group{
+			input,select{
+				width: 50%;
+				margin: auto;
+			}
+		}
+	}
 }
 #header{
 	.top-header{
