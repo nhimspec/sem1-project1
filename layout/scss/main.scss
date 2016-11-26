@@ -17,7 +17,7 @@
 body{
 	font-family: SegoeuiRegular;
 }
-.modal{
+#imagemodal{
 	h3{
 		font-family: "SegoeuiBold";
 	}
@@ -58,6 +58,12 @@ body{
 		}
 	}
 }
+#modal-signup,#modal-signin{
+	form{
+		width: 80%;
+		margin: auto;
+	}
+}
 #header{
 	.top-header{
 		padding-top: 20px;
@@ -71,6 +77,14 @@ body{
 				font-family: "SegoeuiRegular";
 				img{
 					margin-right: 5px;
+				}
+			}
+			.email{
+				a{
+					color: black;
+					&:hover{
+						text-decoration: none;
+					}
 				}
 			}
 		}

@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="left clearfix">
 				<div class="email">
-					<img src="layout/images/mail_icon.png"> example@gmail.com
+					<a href="mailto:mail@gmail.com"><img src="layout/images/mail_icon.png"> example@gmail.com</a>
 				</div>
 				<div class="phone">
 					<img src="layout/images/phone_icon.png"> 453 - 5563 - 996
@@ -32,10 +32,10 @@
 			</div>
 			<div class="right clearfix">
 				<div class="social">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-google-plus" aria-hidden="true"></i>
-					<i class="fa fa-instagram" aria-hidden="true"></i>
+					<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.google.com.vn/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>
@@ -55,14 +55,80 @@
 					</ul>
 				</nav>
 				<div class="tools col-md-3">
-					<i class="fa fa-search" aria-hidden="true"></i>
-					<i class="fa fa-user" aria-hidden="true"></i>
-					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+					<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+					<a href="#" class="signup"><i class="fa fa-user-plus" aria-hidden="true"></i></a>
+					<a href="#" class="signin"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+					<a href="#""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </header>
+
+<!-- SIGN UP -->
+<div class="modal fade" id="modal-signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-dialog modal-md">
+    	<div class="modal-content">  
+    		<div class="modal-header">
+    			<h4>Create New Account</h4>
+    		</div>     
+      		<div class="modal-body">
+		        <form>
+		        	<div class="form-group">
+				    	<label for="name">Name</label>
+				    	<input type="text" class="form-control" id="name" placeholder="Enter Name">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="name">Username</label>
+				    	<input type="text" class="form-control" id="username" placeholder="Enter Username">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="name">Password</label>
+				    	<input type="password" class="form-control" id="password" placeholder="Enter Password">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="address">Address</label>
+				    	<input type="text" class="form-control" id="address" placeholder="Enter Address">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="phone">Phone</label>
+				    	<input type="text" class="form-control" id="phone" placeholder="Enter Phone">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="email">Email address</label>
+				    	<input type="name" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
+				    	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  	</div>
+			         <button type="submit" class="btn btn-primary">Create Account</button>
+				 </form>
+      		</div>
+    	</div>
+  	</div>
+</div>
+
+<!-- SIGN IN -->
+<div class="modal fade" id="modal-signin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-dialog modal-md">
+    	<div class="modal-content">  
+    		<div class="modal-header">
+    			<h4>Login In</h4>
+    		</div>     
+      		<div class="modal-body">
+		        <form>
+		        	<div class="form-group">
+				    	<label for="name">Username</label>
+				    	<input type="text" class="form-control" id="name" placeholder="Enter Username">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="name">Password</label>
+				    	<input type="password" class="form-control" id="password" placeholder="Enter Password">
+				  	</div>
+			         <button type="submit" class="btn btn-primary">Login In</button>
+				 </form>
+      		</div>
+    	</div>
+  	</div>
+</div>
 	<div id="content">
 		<div class="container">
 			<div class="row">

@@ -22,18 +22,18 @@ body {
   font-family: SegoeuiRegular;
 }
 
-.modal h3 {
+#imagemodal h3 {
   font-family: "SegoeuiBold";
 }
 
-.modal p {
+#imagemodal p {
   font-size: 20px;
   font-family: "SegoeuiBold";
   color: #ff5912;
   font-weight: bold;
 }
 
-.modal button {
+#imagemodal button {
   font-size: 25px;
   font-family: "SegoeuiBold";
   color: #ff5912;
@@ -42,25 +42,30 @@ body {
   border-radius: 20px;
 }
 
-.modal button:hover {
+#imagemodal button:hover {
   color: red;
   background-color: #ffffff;
 }
 
-.modal h4 {
+#imagemodal h4 {
   text-decoration: none;
   font-size: 20px;
   font-family: "SegoeuiRegular";
 }
 
-.modal h5 {
+#imagemodal h5 {
   text-decoration: none;
   font-size: 18px;
   font-family: "SegoeuiRegular";
 }
 
-.modal form .form-group input, .modal form .form-group select {
+#imagemodal form .form-group input, #imagemodal form .form-group select {
   width: 50%;
+  margin: auto;
+}
+
+#modal-signup form, #modal-signin form {
+  width: 80%;
   margin: auto;
 }
 
@@ -82,6 +87,14 @@ body {
 
 #header .top-header .left .email img, #header .top-header .left .phone img {
   margin-right: 5px;
+}
+
+#header .top-header .left .email a {
+  color: black;
+}
+
+#header .top-header .left .email a:hover {
+  text-decoration: none;
 }
 
 #header .top-header .right {

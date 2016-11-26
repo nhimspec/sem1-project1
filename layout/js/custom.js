@@ -94,7 +94,7 @@ $( function() {
             var brand = $product.find("brand").text();
             var description = $product.find("description").text();
 
-            var html = '<div class="col-sm-4 item"><a class="tap"><div class="product-sale clearfix">';
+            var html = '<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 col-item"><a class="tap"><div class="product-sale clearfix">';
             html += '<img src="layout/images/products/' + image + '">';
             html += '<div class="extra-product-sales">';
             html += '<h3>' + name + '</h3>';
@@ -183,6 +183,19 @@ $( function() {
     $( "#amount2" ).text(  $( "#slider-range" ).slider( "values", 1 )*2 + "$");
     $( "#amount2" ).css('left', $( "#slider-range" ).slider( "values", 1 )-7+"%");
 
+    /*
+    * Modal show signup
+    */
+    $('body').on('click','a.signup', function() {
+        $('#modal-signup').modal('show'); 
+    });
+
+    /*
+    * Modal show signin
+    */
+    $('body').on('click','a.signin', function() {
+        $('#modal-signin').modal('show'); 
+    });
 
     /*
     * Modal show product
