@@ -11,7 +11,7 @@
       <description>Áo thun nam với chất liệu cotton mềm</description>
    </product>
    <product id="2">
-      <name>LES MILLS Strappy Tank</name>
+      <name>LES MILLS Strap</name>
       <category>women</category>
       <price>34.99</price>
       <sales>36.66$</sales>
@@ -21,7 +21,7 @@
       <description>Áo tập thể dục cho nữ với kiểu dáng thoải mái</description>
    </product>
    <product id="3">
-      <name>LES MILLS Burnout Tee</name>
+      <name>LES MILLS Burn</name>
       <category>women</category>
       <price>22.99</price>
       <sales>29.66$</sales>

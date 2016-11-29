@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="lib/owl.carousel/assets/owl.carousel.min.css">
 <link rel="stylesheet" type="text/css" href="lib/jquery-ui/jquery-ui.min.css">
 <link rel="stylesheet" type="text/css" href="layout/css/style.css">
+<link rel="stylesheet" type="text/css" href="lib/dist/hamburgers.min.css">
 
 </head>
 <body>
@@ -43,10 +44,17 @@
 	<div class="bottom-header">
 		<div class="container">
 			<div class="row">
-				<div class="logo col-md-2 col-sm-4">
+				<div class="logo col-md-2 col-sm-3">
 					<a href="index.html" class="active"><img src="layout/images/logo_header.png"></a>
 				</div>
+				<input type="checkbox" id="menu_show" class="hidden">
 				<nav class="nav col-md-7 col-sm-5">
+					<label class="hamburger hamburger--elastic is-active" for="menu_show">
+						<div class="hamburger-box">
+							<div class="hamburger-inner">		
+							</div>
+						</div>
+					</label>
 					<ul class="nav navbar-nav">
 						<li><a href="index.html" class="">Home</a></li>
 						<li><a href="product.html" class="">Products</a></li>
@@ -60,6 +68,12 @@
 					<a href="#" class="signin"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
 					<a href="#""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 				</div>
+				<label class="hamburger hamburger--elastic" for="menu_show">
+					<div class="hamburger-box">
+						<div class="hamburger-inner">		
+						</div>
+					</div>
+				</label>
 			</div>
 		</div>
 	</div>
@@ -219,7 +233,7 @@
 							</div>
 							<div class="col-md-6 right">
 								<form method="GET" class="form-horizontal" role="form">
-									<input type="text" class="form-control" name="" placeholder="type your email here">
+									<input type="email" class="form-control" name="" placeholder="type your email here">
 									<input type="submit" name="" value="join us">
 								</form>
 							</div>
@@ -260,5 +274,6 @@
 <script type="text/javascript" src="lib/jquery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="lib/owl.carousel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="layout/js/custom.js"></script>
+
 </body>
 </html>

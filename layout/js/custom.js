@@ -18,6 +18,14 @@ $( function() {
     },200);
 
     /*
+    * HEADER_HOME CAROUSEL 
+    */
+    $('.header_sidebar').owlCarousel({
+        items: 1,
+        loop:true
+    });
+
+    /*
     * Get data from XML
     */
     $.get('data/product.xml', function(d){
@@ -35,7 +43,7 @@ $( function() {
         var brand = $product.find("brand").text();
         var description = $product.find("description").text();
 
-        var html = '<div class="col-md-4 product-elements ' +cat+size+brand+ '"><a class="tap"><div class="product-single">';
+        var html = '<div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 product-elements ' +cat+size+brand+ '"><a class="tap"><div class="product-single">';
         html += '<img src="layout/images/products/' + image + '">';
         html += '<h3>' + name + '</h3>';
         html += '<span>' + price + '$</span>';
@@ -94,7 +102,7 @@ $( function() {
             var brand = $product.find("brand").text();
             var description = $product.find("description").text();
 
-            var html = '<div class="col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2 col-item"><a class="tap"><div class="product-sale clearfix">';
+            var html = '<div class="col-sm-4 col-xs-12"><a class="tap"><div class="product-sale clearfix">';
             html += '<img src="layout/images/products/' + image + '">';
             html += '<div class="extra-product-sales">';
             html += '<h3>' + name + '</h3>';
